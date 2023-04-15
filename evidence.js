@@ -123,9 +123,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             <tr>
                                 <td>${person.surname}</td>
                                 <td>${person.name}</td>
-                                <td>${person.gender === "M" ? "Muž" : "Žena"}</td>
                                 <td>${person.address}</td>
                                 <td>${person.city}</td>
+                                <td>${person.gender === "M" ? "Muž" : "Žena"}</td>
                                 <td>${person.birthdate}</td>
                                 <td><button class="editBtn" data-uuid="${person.uuid}">Editovat</button></td>
                             </tr>
